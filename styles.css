@@ -4,8 +4,79 @@
 
 /* 0: Voorbeeld: maak de achtergrondkleur van de pagina wit */
 
+
+
 body {
     background-color: white;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 10%;
+
+}
+
+article h3 {
+    color:grey;
+}
+
+div .subscribe, .places-to-visit {
+    display: inline-block;
+}
+
+div .subscribe {
+    position: absolute;
+    right: 50px;
+    width: 350px;
+    height: 120px;
+
+}
+/*.places-to-visit {*/
+/*    !*float: left;*!*/
+/*}*/
+
+.footer-small {
+    font-size: 10px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+img {
+    width: 100%;
+}
+
+/* Hide Bullet points under the nav tag   */
+nav li {
+    list-style-type: none;
+}
+
+/*Color link items in red*/
+nav li a {
+    color: indianred;
+}
+
+.places-to-visit li:hover {
+    color: darkgreen;
+
+}
+
+.places-to-visit li {
+    color:forestgreen;
+}
+
+form button:nth-child(3) {
+    background-color: indianred;
 }
 
 /* 1: Geef de twee <h3>-tags van de artikelen ("Latest articles") in het HTML-document beiden de class-naam "article-title".
